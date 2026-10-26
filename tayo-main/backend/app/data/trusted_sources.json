@@ -1,0 +1,1766 @@
+{
+  "updated_at": "2026-10-27",
+  "notice": "Mongolia-first registry of sources a reader may reasonably start from. Being listed is not a guarantee that a particular article is correct, and absence is not a mark against a source. Mongolian government, health, university, fact-checking and news domains were checked to resolve and answer over HTTPS on 2026-10-26/27; the feed URLs marked verified returned XML. Sites that block automated requests or use HTTP-only are labelled in their notes. Medical literature is context, not a verdict.",
+  "tiers": {
+    "fact_check": "Publishes verdicts on specific claims as its primary work.",
+    "official": "Primary record holder: the body that produces the figure or the document.",
+    "news": "General reporting. Useful for what was said and when, weaker as a verdict.",
+    "international": "Non-Mongolian reference used when a claim travels across languages."
+  },
+  "sources": [
+    {
+      "id": "factcheck-mn",
+      "name": "FACTCHECK.mn",
+      "domain": "factcheck.mn",
+      "tier": "fact_check",
+      "language": "mn",
+      "category": "fact_check",
+      "medical": true,
+      "scopes": [
+        "fact_check",
+        "medical",
+        "public_health"
+      ],
+      "homepage": "https://factcheck.mn",
+      "search_url": "https://factcheck.mn/?s={query}",
+      "feeds": [
+        "https://factcheck.mn/feed"
+      ],
+      "feed_verified": true,
+      "country": "MN",
+      "rank": 1,
+      "note": "Mongolia's independent fact-checking newsroom. It frequently checks claims circulating on Facebook, including health and vaccine claims. Its own verdict is displayed as the publisher's verdict, not as TAYO's independent judgment.",
+      "verdict_markers": {
+        "ТӨӨРӨГДҮҮЛСЭН": "Misleading",
+        "ТӨӨРӨГДҮҮЛЖ": "Misleading",
+        "ТӨӨРӨГДҮҮЛЭВ": "Misleading",
+        "ХУДАЛ": "False",
+        "ХУУРАМЧ": "Fabricated",
+        "ҮНЭН": "True",
+        "ЗӨВ": "True",
+        "БҮРЭН БИШ": "Partly true",
+        "НОТЛОГДООГҮЙ": "Unproven"
+      }
+    },
+    {
+      "id": "moh-gov-mn",
+      "name": "Эрүүл мэндийн яам (Ministry of Health)",
+      "domain": "moh.gov.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "health_authority",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "public_health",
+        "vaccines",
+        "policy"
+      ],
+      "homepage": "https://moh.gov.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 2,
+      "note": "The ministry that sets Mongolian health policy and publishes official vaccine and public-health notices. Use it for what the ministry actually announced, not as a second opinion on clinical evidence."
+    },
+    {
+      "id": "nccd-gov-mn",
+      "name": "Халдварт өвчин судлалын үндэсний төв (NCCD)",
+      "domain": "nccd.gov.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "health_authority",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "infectious_disease",
+        "vaccines",
+        "public_health"
+      ],
+      "homepage": "https://nccd.gov.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 3,
+      "note": "National Center for Communicable Diseases. Official information on outbreaks, immunization, and communicable-disease guidance."
+    },
+    {
+      "id": "hdc-gov-mn",
+      "name": "Эрүүл мэндийн хөгжлийн төв (Health Development Center)",
+      "domain": "hdc.gov.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "health_authority",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "public_health",
+        "health_education"
+      ],
+      "homepage": "https://hdc.gov.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 4,
+      "note": "Health Development Center. Health education, training, and public-health materials."
+    },
+    {
+      "id": "ncmh-gov-mn",
+      "name": "Сэтгэцийн эрүүл мэндийн үндэсний төв (NCMH)",
+      "domain": "ncmh.gov.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "health_authority",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "mental_health",
+        "public_health"
+      ],
+      "homepage": "https://ncmh.gov.mn",
+      "search_url": "https://ncmh.gov.mn/?s={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 5,
+      "note": "National Center for Mental Health. Official mental-health guidance and service information."
+    },
+    {
+      "id": "nczd-gov-mn",
+      "name": "Зоонозын өвчин судлалын үндэсний төв (ЗӨСҮТ)",
+      "domain": "nczd.gov.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "health_authority",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "infectious_disease",
+        "zoonosis",
+        "public_health"
+      ],
+      "homepage": "https://nczd.gov.mn",
+      "search_url": "https://nczd.gov.mn/?s={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 6,
+      "note": "National Center for Zoonotic Diseases. Zoonoses, animal-to-human infections, and veterinary public health."
+    },
+    {
+      "id": "health-gov-mn",
+      "name": "Эрүүл мэндийн даатгалын ерөнхий газар (ЭМДЕГ)",
+      "domain": "health.gov.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "health_authority",
+      "medical": true,
+      "scopes": [
+        "public_health",
+        "health_insurance"
+      ],
+      "homepage": "https://health.gov.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 20,
+      "note": "Health Insurance General Office e-system. Useful for coverage and payment claims; it is not a clinical guideline source."
+    },
+    {
+      "id": "nema-gov-mn",
+      "name": "Онцгой байдлын ерөнхий газар (NEMA)",
+      "domain": "nema.gov.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "public_safety",
+      "medical": true,
+      "scopes": [
+        "public_safety",
+        "first_aid",
+        "disaster"
+      ],
+      "homepage": "https://nema.gov.mn",
+      "search_url": "https://nema.gov.mn/search/index?q={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 8,
+      "note": "National Emergency Management Agency. Disaster, accident, and first-aid information."
+    },
+    {
+      "id": "nea-gov-mn",
+      "name": "Цөмийн энергийн агентлаг (ЦЭКАА)",
+      "domain": "nea.gov.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "public_safety",
+      "medical": true,
+      "scopes": [
+        "radiation",
+        "nuclear_safety",
+        "public_health"
+      ],
+      "homepage": "https://nea.gov.mn",
+      "search_url": "https://nea.gov.mn/?s={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 7,
+      "note": "Nuclear Energy Agency. Mongolian nuclear-safety and radiation-protection policy and notices."
+    },
+    {
+      "id": "mofa-gov-mn",
+      "name": "Хүнс, хөдөө аж ахуй, хөнгөн үйлдвэрийн яам",
+      "domain": "mofa.gov.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "government",
+      "medical": true,
+      "scopes": [
+        "food_safety",
+        "agriculture",
+        "public_health",
+        "veterinary"
+      ],
+      "homepage": "https://mofa.gov.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 9,
+      "note": "Ministry of Food, Agriculture and Light Industry. Food safety, agriculture, and veterinary public-health notices."
+    },
+    {
+      "id": "masm-gov-mn",
+      "name": "Стандарт хэмжил зүйн газар",
+      "domain": "masm.gov.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "government",
+      "medical": true,
+      "scopes": [
+        "food_safety",
+        "radiation",
+        "standards",
+        "public_health"
+      ],
+      "homepage": "https://masm.gov.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 12,
+      "note": "Mongolian Agency for Standardization and Metrology. Product, food, and radiation measurement standards."
+    },
+    {
+      "id": "gov-mn",
+      "name": "Монгол Улсын Засгийн газрын портал",
+      "domain": "www.gov.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "government",
+      "medical": true,
+      "scopes": [
+        "government",
+        "policy",
+        "public_health"
+      ],
+      "homepage": "https://www.gov.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 10,
+      "note": "Official Government of Mongolia portal. Use it for cabinet decisions and official announcements."
+    },
+    {
+      "id": "parliament-mn",
+      "name": "Монгол Улсын Их Хурал",
+      "domain": "parliament.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "government",
+      "medical": false,
+      "scopes": [
+        "law",
+        "policy"
+      ],
+      "homepage": "https://parliament.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 11,
+      "note": "Parliament of Mongolia. Laws, resolutions, and public hearings."
+    },
+    {
+      "id": "president-mn",
+      "name": "Монгол Улсын Ерөнхийлөгчийн Тамгын газар",
+      "domain": "president.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "government",
+      "medical": false,
+      "scopes": [
+        "government",
+        "policy"
+      ],
+      "homepage": "https://president.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 25,
+      "note": "Office of the President of Mongolia. Official statements; the site may return 403 to automated requests while remaining readable in a browser."
+    },
+    {
+      "id": "legalinfo-mn",
+      "name": "Эрх зүйн мэдээллийн нэгдсэн систем",
+      "domain": "legalinfo.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "law",
+      "medical": false,
+      "scopes": [
+        "law",
+        "policy"
+      ],
+      "homepage": "https://legalinfo.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 15,
+      "note": "Consolidated legal information system. Settles claims about what a Mongolian law actually says."
+    },
+    {
+      "id": "nso-mn",
+      "name": "Үндэсний статистикийн хороо (NSO)",
+      "domain": "nso.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "statistics",
+      "medical": true,
+      "scopes": [
+        "statistics",
+        "public_health",
+        "demography"
+      ],
+      "homepage": "https://nso.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 13,
+      "note": "National Statistics Office. The primary record for national figures rather than a news restatement."
+    },
+    {
+      "id": "tsag-agaar-gov-mn",
+      "name": "Ус, цаг уурын газар",
+      "domain": "tsag-agaar.gov.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "environment",
+      "medical": false,
+      "scopes": [
+        "environment",
+        "weather",
+        "public_safety"
+      ],
+      "homepage": "http://tsag-agaar.gov.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 40,
+      "note": "Water and meteorology agency. Weather, water, and environmental monitoring. The public site is HTTP-only."
+    },
+    {
+      "id": "ipt-ac-mn",
+      "name": "Физик, технологийн хүрээлэн (IPT)",
+      "domain": "ipt.ac.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "university",
+      "medical": true,
+      "scopes": [
+        "radiation",
+        "research",
+        "physics"
+      ],
+      "homepage": "https://ipt.ac.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 30,
+      "note": "Institute of Physics and Technology. Radiation, measurement, and physics research."
+    },
+    {
+      "id": "mas-ac-mn",
+      "name": "Монгол Улсын Шинжлэх ухааны академи (MAS)",
+      "domain": "mas.ac.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "university",
+      "medical": true,
+      "scopes": [
+        "research",
+        "science",
+        "public_health"
+      ],
+      "homepage": "https://mas.ac.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 18,
+      "note": "Mongolian Academy of Sciences. Research institutes and science communication."
+    },
+    {
+      "id": "num-edu-mn",
+      "name": "Монгол Улсын Их Сургууль (NUM)",
+      "domain": "num.edu.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "university",
+      "medical": false,
+      "scopes": [
+        "research",
+        "education"
+      ],
+      "homepage": "https://num.edu.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 35,
+      "note": "National University of Mongolia. Research and academic information."
+    },
+    {
+      "id": "must-edu-mn",
+      "name": "Шинжлэх ухаан, технологийн их сургууль (MUST)",
+      "domain": "must.edu.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "university",
+      "medical": false,
+      "scopes": [
+        "research",
+        "education",
+        "technology"
+      ],
+      "homepage": "https://must.edu.mn",
+      "search_url": "https://must.edu.mn/mn/msearch?q={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 36,
+      "note": "Mongolian University of Science and Technology. Engineering, technology, and research."
+    },
+    {
+      "id": "mnums-edu-mn",
+      "name": "Анагаахын шинжлэх ухааны үндэсний их сургууль (MNUMS)",
+      "domain": "mnums.edu.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "university",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "research",
+        "education"
+      ],
+      "homepage": "https://mnums.edu.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 14,
+      "note": "Mongolian National University of Medical Sciences. Medical education and research."
+    },
+    {
+      "id": "journal-mnums-edu-mn",
+      "name": "Health Science (MNUMS journal)",
+      "domain": "journal.mnums.edu.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "medical_research",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "research",
+        "peer_reviewed"
+      ],
+      "homepage": "https://journal.mnums.edu.mn",
+      "search_url": "https://journal.mnums.edu.mn/index.php/emsu/en/search?query={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 16,
+      "note": "Peer-reviewed health-science journal published by MNUMS. Open-access articles and abstracts."
+    },
+    {
+      "id": "mongolmed-mn",
+      "name": "Монголын Анагаахын Сэтгүүлүүдийн Холбоо (МАСХ)",
+      "domain": "mongolmed.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "medical_research",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "research",
+        "peer_reviewed"
+      ],
+      "homepage": "https://mongolmed.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 17,
+      "note": "Mongolian Medical Journals Association. A searchable collection of Mongolian medical journal articles."
+    },
+    {
+      "id": "redcross-mn",
+      "name": "Монголын Улаан Загалмай Нийгэмлэг",
+      "domain": "redcross.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "public_safety",
+      "medical": true,
+      "scopes": [
+        "first_aid",
+        "public_health",
+        "disaster",
+        "humanitarian"
+      ],
+      "homepage": "https://redcross.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 19,
+      "note": "Mongolian Red Cross Society. First-aid guidance and humanitarian response."
+    },
+    {
+      "id": "mediacouncil-mn",
+      "name": "Хэвлэл мэдээллийн ёс зүйн хороо",
+      "domain": "mediacouncil.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "media",
+      "medical": false,
+      "scopes": [
+        "media_ethics",
+        "fact_check",
+        "complaints"
+      ],
+      "homepage": "https://mediacouncil.mn",
+      "search_url": "https://www.mediacouncil.mn/a/search?q={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 22,
+      "note": "Mongolian Media Council. Ethics complaints, decisions, and media-ethics guidance."
+    },
+    {
+      "id": "msue-edu-mn",
+      "name": "Монгол Улсын Боловсролын Их Сургууль (MSUE)",
+      "domain": "msue.edu.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "university",
+      "medical": false,
+      "scopes": [
+        "research",
+        "education"
+      ],
+      "homepage": "https://msue.edu.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 45,
+      "note": "Mongolian State University of Education. Education and social-science research."
+    },
+    {
+      "id": "humanities-edu-mn",
+      "name": "Хүмүүнлэгийн ухааны их сургууль",
+      "domain": "humanities.edu.mn",
+      "tier": "official",
+      "language": "mn",
+      "category": "university",
+      "medical": false,
+      "scopes": [
+        "research",
+        "education"
+      ],
+      "homepage": "https://humanities.edu.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 46,
+      "note": "University of the Humanities. Humanities and social-science research."
+    },
+    {
+      "id": "ikon-mn",
+      "name": "iKon.mn",
+      "domain": "ikon.mn",
+      "tier": "news",
+      "language": "mn",
+      "category": "media",
+      "medical": true,
+      "scopes": [
+        "news",
+        "public_health"
+      ],
+      "homepage": "https://ikon.mn",
+      "search_url": null,
+      "feeds": [
+        "https://ikon.mn/rss"
+      ],
+      "feed_verified": true,
+      "country": "MN",
+      "rank": 32,
+      "note": "General Mongolian news. Useful for establishing what was reported and when."
+    },
+    {
+      "id": "news-mn",
+      "name": "News.mn",
+      "domain": "news.mn",
+      "tier": "news",
+      "language": "mn",
+      "category": "media",
+      "medical": true,
+      "scopes": [
+        "news",
+        "public_health"
+      ],
+      "homepage": "https://news.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 33,
+      "note": "General Mongolian news. The site sometimes returns 500 to automated requests."
+    },
+    {
+      "id": "gogo-mn",
+      "name": "Gogo.mn",
+      "domain": "gogo.mn",
+      "tier": "news",
+      "language": "mn",
+      "category": "media",
+      "medical": true,
+      "scopes": [
+        "news",
+        "public_health"
+      ],
+      "homepage": "https://gogo.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 34,
+      "note": "General Mongolian news and lifestyle."
+    },
+    {
+      "id": "unuudur-mn",
+      "name": "Өнөөдөр",
+      "domain": "unuudur.mn",
+      "tier": "news",
+      "language": "mn",
+      "category": "media",
+      "medical": true,
+      "scopes": [
+        "news",
+        "public_health"
+      ],
+      "homepage": "https://unuudur.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 35,
+      "note": "Daily newspaper. General Mongolian news."
+    },
+    {
+      "id": "dailynews-mn",
+      "name": "DailyNews.mn",
+      "domain": "dailynews.mn",
+      "tier": "news",
+      "language": "mn",
+      "category": "media",
+      "medical": true,
+      "scopes": [
+        "news",
+        "public_health"
+      ],
+      "homepage": "https://dailynews.mn",
+      "search_url": null,
+      "feeds": [
+        "https://dailynews.mn/feed"
+      ],
+      "feed_verified": true,
+      "country": "MN",
+      "rank": 36,
+      "note": "General Mongolian news with a working RSS feed."
+    },
+    {
+      "id": "itoim-mn",
+      "name": "iToim.mn",
+      "domain": "itoim.mn",
+      "tier": "news",
+      "language": "mn",
+      "category": "media",
+      "medical": true,
+      "scopes": [
+        "news",
+        "public_health"
+      ],
+      "homepage": "https://itoim.mn",
+      "search_url": null,
+      "feeds": [
+        "https://itoim.mn/rss.xml"
+      ],
+      "feed_verified": true,
+      "country": "MN",
+      "rank": 37,
+      "note": "General Mongolian news with a working RSS feed."
+    },
+    {
+      "id": "sonin-mn",
+      "name": "Sonin.mn",
+      "domain": "sonin.mn",
+      "tier": "news",
+      "language": "mn",
+      "category": "media",
+      "medical": true,
+      "scopes": [
+        "news",
+        "public_health"
+      ],
+      "homepage": "https://sonin.mn",
+      "search_url": null,
+      "feeds": [
+        "https://sonin.mn/rss"
+      ],
+      "feed_verified": true,
+      "country": "MN",
+      "rank": 38,
+      "note": "General Mongolian news with a working RSS feed."
+    },
+    {
+      "id": "medee-mn",
+      "name": "Medee.mn",
+      "domain": "medee.mn",
+      "tier": "news",
+      "language": "mn",
+      "category": "media",
+      "medical": true,
+      "scopes": [
+        "news",
+        "public_health"
+      ],
+      "homepage": "https://medee.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 39,
+      "note": "General Mongolian news."
+    },
+    {
+      "id": "zindaa-mn",
+      "name": "Zindaa.mn",
+      "domain": "zindaa.mn",
+      "tier": "news",
+      "language": "mn",
+      "category": "media",
+      "medical": true,
+      "scopes": [
+        "news",
+        "public_health"
+      ],
+      "homepage": "https://zindaa.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 40,
+      "note": "General Mongolian news."
+    },
+    {
+      "id": "mnb-mn",
+      "name": "Монголын үндэсний олон нийтийн радио, телевиз (MNB)",
+      "domain": "mnb.mn",
+      "tier": "news",
+      "language": "mn",
+      "category": "media",
+      "medical": true,
+      "scopes": [
+        "news",
+        "public_health"
+      ],
+      "homepage": "https://mnb.mn",
+      "search_url": null,
+      "feeds": [
+        "https://mnb.mn/rss"
+      ],
+      "feed_verified": true,
+      "country": "MN",
+      "rank": 41,
+      "note": "Public service broadcaster. General news and official broadcasts."
+    },
+    {
+      "id": "tv5-mn",
+      "name": "TV5",
+      "domain": "tv5.mn",
+      "tier": "news",
+      "language": "mn",
+      "category": "media",
+      "medical": true,
+      "scopes": [
+        "news",
+        "public_health"
+      ],
+      "homepage": "https://tv5.mn",
+      "search_url": null,
+      "feeds": [
+        "https://tv5.mn/index.php?format=feed&type=rss"
+      ],
+      "feed_verified": true,
+      "country": "MN",
+      "rank": 42,
+      "note": "Mongolian television news."
+    },
+    {
+      "id": "ubs-mn",
+      "name": "UBS",
+      "domain": "ubs.mn",
+      "tier": "news",
+      "language": "mn",
+      "category": "media",
+      "medical": true,
+      "scopes": [
+        "news",
+        "public_health"
+      ],
+      "homepage": "https://ubs.mn",
+      "search_url": null,
+      "feeds": [
+        "https://ubs.mn/feed.xml"
+      ],
+      "feed_verified": true,
+      "country": "MN",
+      "rank": 43,
+      "note": "Mongolian television news."
+    },
+    {
+      "id": "montsame-mn",
+      "name": "MONTSAME",
+      "domain": "montsame.mn",
+      "tier": "news",
+      "language": "mn",
+      "category": "media",
+      "medical": true,
+      "scopes": [
+        "news",
+        "public_health"
+      ],
+      "homepage": "https://montsame.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 44,
+      "note": "State-owned news agency. Reporters Without Borders describes its coverage as pro-government, so treat it as a record of the official position rather than an independent check."
+    },
+    {
+      "id": "olloo-mn",
+      "name": "Olloo.mn",
+      "domain": "olloo.mn",
+      "tier": "news",
+      "language": "mn",
+      "category": "media",
+      "medical": true,
+      "scopes": [
+        "news",
+        "public_health"
+      ],
+      "homepage": "https://olloo.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 45,
+      "note": "General Mongolian news. The site returns 403 to some automated requests."
+    },
+    {
+      "id": "eagle-mn",
+      "name": "Eagle.mn",
+      "domain": "eagle.mn",
+      "tier": "news",
+      "language": "mn",
+      "category": "media",
+      "medical": true,
+      "scopes": [
+        "news",
+        "public_health"
+      ],
+      "homepage": "https://eagle.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 46,
+      "note": "General Mongolian news."
+    },
+    {
+      "id": "shuud-mn",
+      "name": "Shuud.mn",
+      "domain": "shuud.mn",
+      "tier": "news",
+      "language": "mn",
+      "category": "media",
+      "medical": true,
+      "scopes": [
+        "news",
+        "public_health"
+      ],
+      "homepage": "https://shuud.mn",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "MN",
+      "rank": 47,
+      "note": "General Mongolian news."
+    },
+    {
+      "id": "who",
+      "name": "World Health Organization",
+      "domain": "who.int",
+      "tier": "official",
+      "language": "en",
+      "category": "health_authority",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "public_health",
+        "vaccines",
+        "infectious_disease",
+        "radiation"
+      ],
+      "homepage": "https://who.int",
+      "search_url": "https://www.who.int/home/search?indexCatalogue=genericsearchindex1&searchQuery={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 2,
+      "note": "Primary source for international health guidance, including vaccine and radiation questions that recur in Mongolian social media."
+    },
+    {
+      "id": "unicef",
+      "name": "UNICEF",
+      "domain": "unicef.org",
+      "tier": "international",
+      "language": "en",
+      "category": "health_authority",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "maternal_child",
+        "vaccines",
+        "public_health"
+      ],
+      "homepage": "https://unicef.org",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 20,
+      "note": "UNICEF. Maternal and child health, immunization, and nutrition guidance."
+    },
+    {
+      "id": "cdc",
+      "name": "US Centers for Disease Control and Prevention (CDC)",
+      "domain": "cdc.gov",
+      "tier": "official",
+      "language": "en",
+      "category": "health_authority",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "public_health",
+        "vaccines",
+        "infectious_disease"
+      ],
+      "homepage": "https://cdc.gov",
+      "search_url": "https://search.cdc.gov/search/?query={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "US",
+      "rank": 10,
+      "note": "CDC. Vaccine, infectious-disease, and public-health guidance. The site may return 403 to automated requests while remaining readable in a browser."
+    },
+    {
+      "id": "nih",
+      "name": "US National Institutes of Health (NIH)",
+      "domain": "nih.gov",
+      "tier": "official",
+      "language": "en",
+      "category": "medical_research",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "research",
+        "clinical_trials"
+      ],
+      "homepage": "https://nih.gov",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "US",
+      "rank": 21,
+      "note": "NIH. Biomedical research and clinical information. The site may use bot protection."
+    },
+    {
+      "id": "pubmed",
+      "name": "PubMed (NLM)",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "tier": "official",
+      "language": "en",
+      "category": "medical_research",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "research",
+        "peer_reviewed"
+      ],
+      "homepage": "https://pubmed.ncbi.nlm.nih.gov",
+      "search_url": "https://pubmed.ncbi.nlm.nih.gov/?term={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "US",
+      "rank": 8,
+      "note": "PubMed index of biomedical literature. Search here for the primary studies behind a health claim."
+    },
+    {
+      "id": "europepmc",
+      "name": "Europe PMC",
+      "domain": "europepmc.org",
+      "tier": "international",
+      "language": "en",
+      "category": "medical_research",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "research",
+        "peer_reviewed"
+      ],
+      "homepage": "https://europepmc.org",
+      "search_url": "https://europepmc.org/search?query={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 9,
+      "note": "Europe PMC. Open biomedical literature, including PubMed records. The Claim tab queries its API directly."
+    },
+    {
+      "id": "cochrane",
+      "name": "Cochrane Library",
+      "domain": "cochranelibrary.com",
+      "tier": "international",
+      "language": "en",
+      "category": "medical_research",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "research",
+        "systematic_review"
+      ],
+      "homepage": "https://cochranelibrary.com",
+      "search_url": "https://www.cochranelibrary.com/search?q={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 11,
+      "note": "Cochrane systematic reviews. The strongest starting point when a claim asks whether a treatment works."
+    },
+    {
+      "id": "healthfeedback",
+      "name": "Health Feedback",
+      "domain": "science.feedback.org",
+      "tier": "fact_check",
+      "language": "en",
+      "category": "fact_check",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "fact_check",
+        "public_health"
+      ],
+      "homepage": "https://science.feedback.org",
+      "search_url": "https://science.feedback.org/health-feedback/?s={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 12,
+      "note": "Health Feedback, part of Science Feedback. Scientist-reviewed fact-checks of health claims."
+    },
+    {
+      "id": "science-feedback",
+      "name": "Science Feedback",
+      "domain": "science.feedback.org",
+      "tier": "fact_check",
+      "language": "en",
+      "category": "fact_check",
+      "medical": true,
+      "scopes": [
+        "fact_check",
+        "medical",
+        "climate"
+      ],
+      "homepage": "https://science.feedback.org",
+      "search_url": "https://science.feedback.org/?s={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 25,
+      "note": "Science Feedback. Reviews health and climate claims with domain scientists."
+    },
+    {
+      "id": "gavi",
+      "name": "Gavi, the Vaccine Alliance",
+      "domain": "gavi.org",
+      "tier": "international",
+      "language": "en",
+      "category": "health_authority",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "vaccines",
+        "public_health"
+      ],
+      "homepage": "https://gavi.org",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 26,
+      "note": "Gavi. Vaccine access and immunization information."
+    },
+    {
+      "id": "iaea",
+      "name": "International Atomic Energy Agency (IAEA)",
+      "domain": "iaea.org",
+      "tier": "international",
+      "language": "en",
+      "category": "public_safety",
+      "medical": true,
+      "scopes": [
+        "radiation",
+        "nuclear_safety",
+        "public_health"
+      ],
+      "homepage": "https://iaea.org",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 14,
+      "note": "IAEA. Nuclear safety, radiation protection, and peaceful-use information. The site may use bot protection."
+    },
+    {
+      "id": "icrp",
+      "name": "International Commission on Radiological Protection (ICRP)",
+      "domain": "icrp.org",
+      "tier": "international",
+      "language": "en",
+      "category": "public_safety",
+      "medical": true,
+      "scopes": [
+        "radiation",
+        "nuclear_safety",
+        "public_health"
+      ],
+      "homepage": "https://icrp.org",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 15,
+      "note": "ICRP. International radiation-protection recommendations."
+    },
+    {
+      "id": "medlineplus",
+      "name": "MedlinePlus (NLM)",
+      "domain": "medlineplus.gov",
+      "tier": "international",
+      "language": "en",
+      "category": "medical_reference",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "public_health",
+        "patient_education"
+      ],
+      "homepage": "https://medlineplus.gov",
+      "search_url": "https://medlineplus.gov/search/?query={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "US",
+      "rank": 22,
+      "note": "MedlinePlus. Plain-language patient health information from the US National Library of Medicine."
+    },
+    {
+      "id": "nhs",
+      "name": "NHS",
+      "domain": "nhs.uk",
+      "tier": "international",
+      "language": "en",
+      "category": "medical_reference",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "public_health",
+        "patient_education"
+      ],
+      "homepage": "https://nhs.uk",
+      "search_url": "https://www.nhs.uk/search/results?q={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "UK",
+      "rank": 23,
+      "note": "NHS. Patient-facing health information and treatment guidance."
+    },
+    {
+      "id": "clevelandclinic",
+      "name": "Cleveland Clinic",
+      "domain": "clevelandclinic.org",
+      "tier": "international",
+      "language": "en",
+      "category": "medical_reference",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "public_health",
+        "patient_education"
+      ],
+      "homepage": "https://clevelandclinic.org",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "US",
+      "rank": 27,
+      "note": "Cleveland Clinic. Patient-facing medical reference."
+    },
+    {
+      "id": "mayoclinic",
+      "name": "Mayo Clinic",
+      "domain": "mayoclinic.org",
+      "tier": "international",
+      "language": "en",
+      "category": "medical_reference",
+      "medical": true,
+      "scopes": [
+        "medical",
+        "public_health",
+        "patient_education"
+      ],
+      "homepage": "https://mayoclinic.org",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "US",
+      "rank": 28,
+      "note": "Mayo Clinic. Patient-facing medical reference. The site may return 403 to automated requests."
+    },
+    {
+      "id": "ourworldindata",
+      "name": "Our World in Data",
+      "domain": "ourworldindata.org",
+      "tier": "international",
+      "language": "en",
+      "category": "statistics",
+      "medical": true,
+      "scopes": [
+        "statistics",
+        "public_health",
+        "research"
+      ],
+      "homepage": "https://ourworldindata.org",
+      "search_url": "https://ourworldindata.org/search?q={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 30,
+      "note": "Our World in Data. Transparent global health and demographic datasets and charts."
+    },
+    {
+      "id": "worldbank",
+      "name": "World Bank",
+      "domain": "worldbank.org",
+      "tier": "international",
+      "language": "en",
+      "category": "statistics",
+      "medical": true,
+      "scopes": [
+        "statistics",
+        "development",
+        "public_health"
+      ],
+      "homepage": "https://worldbank.org",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 40,
+      "note": "World Bank. Development and health indicators for cross-country claims."
+    },
+    {
+      "id": "adb",
+      "name": "Asian Development Bank",
+      "domain": "adb.org",
+      "tier": "international",
+      "language": "en",
+      "category": "statistics",
+      "medical": true,
+      "scopes": [
+        "statistics",
+        "development",
+        "public_health"
+      ],
+      "homepage": "https://adb.org",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 41,
+      "note": "Asian Development Bank. Regional development and health indicators. The site may use bot protection."
+    },
+    {
+      "id": "reuters-factcheck",
+      "name": "Reuters Fact Check",
+      "domain": "reuters.com",
+      "tier": "international",
+      "language": "en",
+      "category": "fact_check",
+      "medical": true,
+      "scopes": [
+        "fact_check",
+        "medical",
+        "public_health"
+      ],
+      "homepage": "https://reuters.com",
+      "search_url": "https://www.reuters.com/site-search/?query={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 3,
+      "note": "International wire fact-checks. Often covers a claim before it is translated into Mongolian."
+    },
+    {
+      "id": "afp-factcheck",
+      "name": "AFP Fact Check",
+      "domain": "factcheck.afp.com",
+      "tier": "international",
+      "language": "en",
+      "category": "fact_check",
+      "medical": true,
+      "scopes": [
+        "fact_check",
+        "medical",
+        "public_health"
+      ],
+      "homepage": "https://factcheck.afp.com",
+      "search_url": null,
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 4,
+      "note": "AFP's fact-check desk, which covers Asia-Pacific claims."
+    },
+    {
+      "id": "snopes",
+      "name": "Snopes",
+      "domain": "snopes.com",
+      "tier": "international",
+      "language": "en",
+      "category": "fact_check",
+      "medical": true,
+      "scopes": [
+        "fact_check",
+        "medical",
+        "public_health"
+      ],
+      "homepage": "https://snopes.com",
+      "search_url": "https://www.snopes.com/?s={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 5,
+      "note": "Long-running English-language fact-checker."
+    },
+    {
+      "id": "fullfact",
+      "name": "Full Fact",
+      "domain": "fullfact.org",
+      "tier": "international",
+      "language": "en",
+      "category": "fact_check",
+      "medical": false,
+      "scopes": [
+        "fact_check",
+        "health",
+        "public_health"
+      ],
+      "homepage": "https://fullfact.org",
+      "search_url": "https://fullfact.org/search/?q={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 6,
+      "note": "UK fact-checking charity."
+    },
+    {
+      "id": "factcheck-org",
+      "name": "FactCheck.org",
+      "domain": "factcheck.org",
+      "tier": "international",
+      "language": "en",
+      "category": "fact_check",
+      "medical": true,
+      "scopes": [
+        "fact_check",
+        "medical",
+        "public_health"
+      ],
+      "homepage": "https://factcheck.org",
+      "search_url": "https://www.factcheck.org/?s={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 7,
+      "note": "US fact-checker run by the Annenberg Public Policy Center."
+    },
+    {
+      "id": "politifact",
+      "name": "PolitiFact",
+      "domain": "politifact.com",
+      "tier": "international",
+      "language": "en",
+      "category": "fact_check",
+      "medical": false,
+      "scopes": [
+        "fact_check",
+        "public_health"
+      ],
+      "homepage": "https://politifact.com",
+      "search_url": "https://www.politifact.com/search/?q={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 8,
+      "note": "US political fact-checker (Poynter Institute)."
+    },
+    {
+      "id": "apnews",
+      "name": "AP News",
+      "domain": "apnews.com",
+      "tier": "international",
+      "language": "en",
+      "category": "media",
+      "medical": false,
+      "scopes": [
+        "news",
+        "fact_check",
+        "public_health"
+      ],
+      "homepage": "https://apnews.com",
+      "search_url": "https://apnews.com/search?q={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 30,
+      "note": "Associated Press wire service and fact-check desk. A news wire, not solely a fact-checker."
+    },
+    {
+      "id": "leadstories",
+      "name": "Lead Stories",
+      "domain": "leadstories.com",
+      "tier": "international",
+      "language": "en",
+      "category": "fact_check",
+      "medical": true,
+      "scopes": [
+        "fact_check",
+        "medical",
+        "public_health"
+      ],
+      "homepage": "https://leadstories.com",
+      "search_url": "https://leadstories.com/?s={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 9,
+      "note": "US fact-checker focused on viral hoaxes and social-media claims."
+    },
+    {
+      "id": "aap-factcheck",
+      "name": "AAP FactCheck",
+      "domain": "aap.com.au",
+      "tier": "international",
+      "language": "en",
+      "category": "fact_check",
+      "medical": true,
+      "scopes": [
+        "fact_check",
+        "medical",
+        "public_health"
+      ],
+      "homepage": "https://aap.com.au",
+      "search_url": "https://www.aap.com.au/?s={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 10,
+      "note": "Australian Associated Press fact-check desk."
+    },
+    {
+      "id": "africacheck",
+      "name": "Africa Check",
+      "domain": "africacheck.org",
+      "tier": "international",
+      "language": "en",
+      "category": "fact_check",
+      "medical": false,
+      "scopes": [
+        "fact_check",
+        "health",
+        "public_health"
+      ],
+      "homepage": "https://africacheck.org",
+      "search_url": "https://africacheck.org/?s={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 11,
+      "note": "Independent fact-checker covering African claims."
+    },
+    {
+      "id": "altnews",
+      "name": "Alt News",
+      "domain": "altnews.in",
+      "tier": "international",
+      "language": "en",
+      "category": "fact_check",
+      "medical": true,
+      "scopes": [
+        "fact_check",
+        "medical",
+        "public_health"
+      ],
+      "homepage": "https://altnews.in",
+      "search_url": "https://www.altnews.in/?s={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 12,
+      "note": "Indian fact-checker."
+    },
+    {
+      "id": "boomlive",
+      "name": "BOOM",
+      "domain": "boomlive.in",
+      "tier": "international",
+      "language": "en",
+      "category": "fact_check",
+      "medical": true,
+      "scopes": [
+        "fact_check",
+        "medical",
+        "public_health"
+      ],
+      "homepage": "https://boomlive.in",
+      "search_url": "https://www.boomlive.in/search?query={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 13,
+      "note": "Indian fact-checker."
+    },
+    {
+      "id": "factly",
+      "name": "FACTLY",
+      "domain": "factly.in",
+      "tier": "international",
+      "language": "en",
+      "category": "fact_check",
+      "medical": false,
+      "scopes": [
+        "fact_check",
+        "public_health"
+      ],
+      "homepage": "https://factly.in",
+      "search_url": "https://factly.in/?s={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 14,
+      "note": "Indian data-journalism and fact-check site."
+    },
+    {
+      "id": "rappler",
+      "name": "Rappler",
+      "domain": "rappler.com",
+      "tier": "international",
+      "language": "en",
+      "category": "fact_check",
+      "medical": false,
+      "scopes": [
+        "fact_check",
+        "public_health"
+      ],
+      "homepage": "https://rappler.com",
+      "search_url": "https://www.rappler.com/?s={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 15,
+      "note": "Philippine news site with a fact-check desk."
+    },
+    {
+      "id": "annielab",
+      "name": "Annie Lab",
+      "domain": "annielab.org",
+      "tier": "international",
+      "language": "en",
+      "category": "fact_check",
+      "medical": true,
+      "scopes": [
+        "fact_check",
+        "medical",
+        "public_health"
+      ],
+      "homepage": "https://annielab.org",
+      "search_url": "https://annielab.org/?s={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 16,
+      "note": "Fact-checking lab at the University of Hong Kong, covering Asian claims."
+    },
+    {
+      "id": "usatoday",
+      "name": "USA Today",
+      "domain": "usatoday.com",
+      "tier": "news",
+      "language": "en",
+      "category": "media",
+      "medical": false,
+      "scopes": [
+        "news",
+        "fact_check",
+        "public_health"
+      ],
+      "homepage": "https://usatoday.com",
+      "search_url": "https://www.usatoday.com/search/?q={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 31,
+      "note": "US national newspaper with a fact-check section."
+    },
+    {
+      "id": "washingtonpost",
+      "name": "The Washington Post",
+      "domain": "washingtonpost.com",
+      "tier": "news",
+      "language": "en",
+      "category": "media",
+      "medical": false,
+      "scopes": [
+        "news",
+        "fact_check",
+        "public_health"
+      ],
+      "homepage": "https://washingtonpost.com",
+      "search_url": "https://www.washingtonpost.com/search/?query={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 32,
+      "note": "US national newspaper; its Fact Checker column rates political claims."
+    },
+    {
+      "id": "bbc",
+      "name": "BBC",
+      "domain": "bbc.co.uk",
+      "tier": "news",
+      "language": "en",
+      "category": "media",
+      "medical": false,
+      "scopes": [
+        "news",
+        "fact_check",
+        "health"
+      ],
+      "homepage": "https://bbc.co.uk",
+      "search_url": "https://www.bbc.co.uk/search?q={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 33,
+      "note": "UK public broadcaster, including BBC Verify."
+    },
+    {
+      "id": "dw",
+      "name": "DW",
+      "domain": "dw.com",
+      "tier": "news",
+      "language": "en",
+      "category": "media",
+      "medical": false,
+      "scopes": [
+        "news",
+        "fact_check",
+        "health"
+      ],
+      "homepage": "https://dw.com",
+      "search_url": "https://www.dw.com/search/?languageCode=en&item={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 34,
+      "note": "Germany's international broadcaster, with a fact-check desk."
+    },
+    {
+      "id": "voanews",
+      "name": "VOA",
+      "domain": "voanews.com",
+      "tier": "news",
+      "language": "en",
+      "category": "media",
+      "medical": false,
+      "scopes": [
+        "news",
+        "fact_check",
+        "health"
+      ],
+      "homepage": "https://voanews.com",
+      "search_url": "https://www.voanews.com/s?k={query}",
+      "feeds": [],
+      "feed_verified": false,
+      "country": "INT",
+      "rank": 35,
+      "note": "US government-funded international broadcaster. State-funded, so weigh it as an official-position source rather than independent."
+    }
+  ]
+}
